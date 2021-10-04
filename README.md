@@ -1,5 +1,7 @@
 # Pardus
-## Parus Komutları
+## Pardus Komutları
+
+etap+pardus!
 
 sudo apt update && sudo apt full-upgrade -yq
 
