@@ -14,3 +14,9 @@ lsattr
 chattr -i test.txt
 
 sudo su root
+
+sudo apt-get -f install
+sudo dpkg --configure -a
+sudo apt update
+sudo apt install printer-driver-escpr
+sudo apt install printer-driver-all
