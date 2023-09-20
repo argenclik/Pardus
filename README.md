@@ -12,3 +12,5 @@ rm ~/.local/share/keyrings/*
 lsattr 
 
 chattr -i test.txt
+
+sudo su root
