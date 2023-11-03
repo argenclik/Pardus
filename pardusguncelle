@@ -1,12 +1,12 @@
 #!/bin/bash
 #### install wine
-apt --fix-broken install -y
+apt-get --fix-broken install -y
 apt-get install -f -y # eksik bağımlılıkları tamamlaması için.
-apt autoremove -y
-apt update
-apt upgrade -y
-apt install printer-driver-all
+apt-get autoremove -y
+apt-get update -y
+apt-get upgrade -y
+apt-get install printer-driver-all -y
 
-apt autoremove -y
-apt autoclean -y
-apt update
+apt-get autoremove -y
+apt-get autoclean -y
+apt-get update -y
