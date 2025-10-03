@@ -1,0 +1,11 @@
+Kalibrasyonda ufak hatalar varsa etapyetkili hesabinda uç birime:
+
+sudo apt-get install xinput-calibrator
+
+ yazınca bir kalibrasyon araci kuruluyor 
+
+daha sonra ayni yere araci calistirmak icin:
+
+xinput_calibrator
+
+yaziyoruz program calisiyor tahtanin 4 kosesinde windowstaki gibi kalibre dokunma noktalari cikiyor.
